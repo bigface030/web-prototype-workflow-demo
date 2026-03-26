@@ -72,7 +72,7 @@ export const MainNavBar = ({ activeTab, onTabChange }: MainTabsProps) => {
         {/* Tabs */}
         <div
           ref={scrollRef}
-          className="flex overflow-x-auto scrollbar-hide px-4 md:px-8"
+          className="flex overflow-x-auto scrollbar-hide px-4 md:px-8 no-scrollbar"
         >
           {mainTabs.map((tab) => (
             <button
