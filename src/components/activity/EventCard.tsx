@@ -18,7 +18,7 @@ const EventCard = ({ id, image, isPreparing }: EventCardProps) => {
       <div className="relative h-[200px] overflow-hidden">
         <img src={image} alt={t(`card.${id}.title`)} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" />
         {/* Location badge */}
-        <span className="absolute top-3 left-3 bg-primary-5 text-neutral-0 text-ds-0 font-medium px-2 py-0.5 rounded-0">
+        <span className="absolute top-4 left-0 bg-primary-10 text-neutral-0 text-ds-0 font-medium px-2 py-0.5 rounded-none">
           {t(`card.${id}.location`)}
         </span>
         {/* Preparing overlay */}
