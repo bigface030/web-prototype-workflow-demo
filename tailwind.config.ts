@@ -3,7 +3,7 @@ import type { Config } from "tailwindcss";
 /* Helper to generate 0–9 scale from CSS vars */
 const colorScale = (name: string) =>
   Object.fromEntries(
-    Array.from({ length: 10 }, (_, i) => [i, `hsl(var(--${name}-${i}))`])
+    Array.from({ length: 11 }, (_, i) => [i, `hsl(var(--${name}-${i}))`])
   );
 
 const momoScale = Object.fromEntries(
