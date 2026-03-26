@@ -44,7 +44,7 @@ const Activity = () => {
 
       {/* Event cards grid */}
       <section className="max-w-[1280px] mx-auto px-4 md:px-8 pb-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {events.map((event) => (
             <EventCard key={event.id} {...event} />
           ))}
