@@ -20,7 +20,7 @@ const CategoryTabs = ({ activeTab, onTabChange, activeSubTab, onSubTabChange }: 
   return (
     <div>
       {/* Main tabs */}
-      <div className="bg-neutral-8">
+      <div className="sticky top-0 z-header bg-primary-9">
         <div className="max-w-[1280px] mx-auto px-4 md:px-8 flex overflow-x-auto scrollbar-hide">
           {mainTabs.map((tab) => (
             <button

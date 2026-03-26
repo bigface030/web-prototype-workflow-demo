@@ -23,7 +23,7 @@ const ActivityHeader = () => {
   ]
 
   return (
-    <header className="sticky top-0 z-header bg-neutral-0 shadow-header">
+    <header className="bg-neutral-0 shadow-header">
       <div className="max-w-[1280px] mx-auto flex items-center justify-between h-[64px] px-6">
         {/* Logo */}
         <div className="flex items-center gap-8">
