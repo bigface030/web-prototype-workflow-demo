@@ -154,7 +154,7 @@ export const SubNavBar = ({ activeSubTab, onSubTabChange }: SubTabsProps) => {
       {/* Tabs */}
       <div
         ref={scrollRef}
-        className="flex overflow-x-auto no-scrollbar scrollbar-hide gap-2"
+        className="flex overflow-x-auto no-scrollbar gap-2 px-4 md:px-8"
       >
         {subTabs.map((tab) => (
           <button
