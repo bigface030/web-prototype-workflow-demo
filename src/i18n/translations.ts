@@ -1,4 +1,4 @@
-export type Locale = 'zh-TW' | 'zh-CN'
+export type Locale = 'zh-TW' | 'zh-CN' | 'en'
 
 export const translations: Record<Locale, Record<string, string>> = {
   'zh-TW': {
@@ -132,6 +132,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     // Language
     'lang.zh-TW': '繁體中文(台灣)',
     'lang.zh-CN': '简体中文',
+    'lang.en': 'English',
   },
 
   'zh-CN': {
@@ -265,5 +266,140 @@ export const translations: Record<Locale, Record<string, string>> = {
     // Language
     'lang.zh-TW': '繁体中文(台湾)',
     'lang.zh-CN': '简体中文',
+    'lang.en': 'English',
+  },
+
+  'en': {
+    // Header
+    'nav.cruise': 'Cruises',
+    'nav.group_tour': 'Group Tours',
+    'nav.accommodation': 'Stays',
+    'nav.activities': 'Activities',
+    'nav.thsr': 'Taiwan HSR',
+    'nav.download_app': 'Get the App',
+    'nav.login': 'Log In',
+    'nav.register': 'Sign Up',
+    'nav.language': 'English',
+    'nav.currency': 'TWD',
+
+    // Hero
+    'hero.title': 'Top International Marathons | Race Entry + Accommodation',
+    'hero.description': 'AsiaYo offers 2026–2027 marathon and sports event packages across Japan, Korea, and Taiwan — including race entry and accommodation. Featuring iconic events like the Mt. Fuji Marathon, Sapporo Marathon, and Jeju Marathon, plus golf trips and Mt. Fuji hiking adventures. Push your limits while enjoying the journey!',
+
+    // Tabs
+    'tab.hot': 'Trending',
+    'tab.japan_marathon': 'Japan Marathons',
+    'tab.intl_marathon': 'Int\'l Marathons',
+    'tab.hiking': 'Hiking',
+    'tab.intl_cycling': 'Int\'l Cycling',
+    'tab.taiwan_marathon': 'Taiwan Marathons',
+    'tab.golf': 'Golf Tours',
+    'tab.baseball': 'Baseball Events',
+
+    // Sub tabs
+    'subtab.hot': 'Trending',
+    'subtab.pb': 'Chase Your PB',
+    'subtab.beginner': 'Beginner Friendly',
+    'subtab.extreme': 'Extreme Challenge',
+    'subtab.day_trip': 'Charter / Day Trip',
+
+    // Cards
+    'card.fuji.location': 'Yamanashi',
+    'card.fuji.title': 'Mt. Fuji Marathon — Dec 14, 2025',
+    'card.fuji.desc1': '★ A Japan Top 100 race — a must-run, once-in-a-lifetime event!',
+    'card.fuji.desc2': '★ Handpicked popular hotels for a hassle-free stay',
+    'card.fuji.desc3': '★ Earn an adorable Mt. Fuji–shaped finisher medal!',
+    'card.fuji.type': 'Full | Lake Loop | Fun Run',
+    'card.fuji.package': 'Race entry + 2-night hotel stay',
+    'card.fuji.price': 'Coming Soon',
+    'card.fuji.preparing': 'Coming soon — stay tuned!',
+
+    'card.sapporo.location': 'Hokkaido',
+    'card.sapporo.title': 'Sapporo Marathon — Oct 4, 2026',
+    'card.sapporo.desc1': '★ Stay at a top-rated hotel just 3 min from Susukino Station — the most convenient base for exploring Sapporo!',
+    'card.sapporo.desc2': '★ Run in the perfect cool autumn weather and feel the energy of one of Hokkaido\'s biggest races, while soaking in Sapporo\'s unique urban charm.',
+    'card.sapporo.desc3': '★ The first half of the course passes iconic landmarks like Susukino and Odori Park — a rare sightseeing run through the city.',
+    'card.sapporo.type': 'Half | 10K',
+    'card.sapporo.package': 'Race entry + hotel (free & easy)',
+    'card.sapporo.price': 'From NT$8,560 / person',
+
+    'card.hokkaido.location': 'Hokkaido',
+    'card.hokkaido.title': 'Hokkaido Marathon — Aug 30, 2026',
+    'card.hokkaido.desc1': '★ A Japan Top 100 race',
+    'card.hokkaido.desc2': '★ Experience the Tokyo Olympic marathon course and run through Hokkaido University',
+    'card.hokkaido.desc3': '★ Thanks to Sapporo\'s cool climate, this is Japan\'s only full marathon held in summer',
+    'card.hokkaido.type': 'Full',
+    'card.hokkaido.package': 'Race entry + 2-night hotel stay',
+    'card.hokkaido.price': 'From NT$9,950 / person',
+
+    'card.seoul.location': 'Seoul, Korea',
+    'card.seoul.title': 'JTBC Seoul Marathon — Nov 1, 2026',
+    'card.seoul.desc1': '★ An Olympic-inspired event starting at Seoul World Cup Stadium and finishing at Seoul Sports Complex',
+    'card.seoul.desc2': '★ Take in Seoul\'s iconic landmarks as the full course crosses the Yanghwa Bridge over the Han River to Yeouido, then passes the Mapo Bridge with stunning cityscapes along the way.',
+    'card.seoul.desc3': '★ Blending K-culture, music, and urban exploration — challenge yourself physically while enjoying everything Seoul has to offer',
+    'card.seoul.type': 'Full | 10K',
+    'card.seoul.package': 'Race entry + 4-night hotel stay',
+    'card.seoul.price': 'From NT$13,155 / person',
+
+    'card.jeju.location': 'Jeju Island, Korea',
+    'card.jeju.title': 'Jeju Int\'l Tourism Marathon — Jun 7, 2026',
+    'card.jeju.desc1': '★ Hotel located in the heart of the shopping district, surrounded by great dining — enjoy a seamless travel experience alongside your race',
+    'card.jeju.desc2': '★ Korea\'s southernmost island with mild weather and stunning ocean scenery, drawing visitors from around the world',
+    'card.jeju.desc3': '★ Multiple race distances to suit runners of all levels',
+    'card.jeju.type': 'Full | Half | 10K',
+    'card.jeju.package': 'Race entry + 4-night hotel stay',
+    'card.jeju.price': 'From NT$6,050 / person',
+
+    'card.niigata.location': 'Niigata',
+    'card.niigata.title': 'Niigata Marathon — Oct 11, 2026',
+    'card.niigata.desc1': '★ A Japan Top 100 race',
+    'card.niigata.desc2': '★ A straight, flat, ultra-fast course perfect for setting records. Book through AsiaYo and receive a special finisher medal for completing the full marathon!',
+    'card.niigata.desc3': '★ Enthusiastic local supporters cheer you on, with Niigata specialty food and drinks along the route',
+    'card.niigata.type': 'Full | Fun Run (10.6K)',
+    'card.niigata.package': 'Race entry + 2-night hotel stay',
+    'card.niigata.price': 'From NT$8,685 / person',
+
+    'card.kobe.location': 'Kobe, Hyogo',
+    'card.kobe.title': 'Kobe Marathon — Nov 15, 2026',
+    'card.kobe.desc1': '★ A Japan Top 100 race — one of Japan\'s most historic marathons',
+    'card.kobe.desc2': '★ A generous 7-hour time limit with a mostly flat course, welcoming runners of all levels',
+    'card.kobe.desc3': '★ Explore the historic port city of Kobe and immerse yourself in Japanese culture and scenery',
+    'card.kobe.type': 'Full',
+    'card.kobe.package': 'Race entry + 2-night hotel stay',
+    'card.kobe.price': 'From NT$10,290 / person',
+
+    'card.kanazawa.location': 'Kanazawa',
+    'card.kanazawa.title': 'Kanazawa Marathon — Oct 25, 2026',
+    'card.kanazawa.desc1': '★ A Japan Top 100 race',
+    'card.kanazawa.desc2': '★ Stay at a great-value hotel right by Kanazawa Station for maximum convenience',
+    'card.kanazawa.desc3': '★ The route showcases stunning nature, historic sites, and Kanazawa\'s renowned cuisine — enjoy local flavors at the aid stations!',
+    'card.kanazawa.type': 'Full',
+    'card.kanazawa.package': 'Race entry + 2-night hotel stay',
+    'card.kanazawa.price': 'From NT$13,825 / person',
+
+    'card.yokohama.location': 'Yokohama, Kanagawa',
+    'card.yokohama.title': 'Yokohama Marathon — Oct 25, 2026',
+    'card.yokohama.desc1': '★ A unique course taking you through Yokohama\'s most popular landmarks',
+    'card.yokohama.desc2': '★ Run along the Bayshore Expressway — normally closed to runners — and enjoy breathtaking port-city views!',
+    'card.yokohama.desc3': '★ Aid stations feature live entertainment and local Yokohama & Kanagawa treats served as "lucky fuel"',
+    'card.yokohama.type': 'Full',
+    'card.yokohama.package': 'Race entry + 2-night hotel stay',
+    'card.yokohama.price': 'From NT$13,180 / person',
+
+    // Contact
+    'contact.title': 'Contact Us',
+    'contact.phone': 'Call us: 02-7755-0575 ext. 7',
+    'contact.line': 'Chat Online',
+    'contact.agent': 'Talk to an Agent',
+
+    // Footer
+    'footer.terms': 'Terms of Service',
+    'footer.privacy': 'Privacy Policy',
+    'footer.copyright': '© 2014-2026 AsiaYo Co., Ltd. All Rights Reserved.',
+
+    // Language
+    'lang.zh-TW': '繁體中文(台灣)',
+    'lang.zh-CN': '简体中文',
+    'lang.en': 'English',
   },
 }
