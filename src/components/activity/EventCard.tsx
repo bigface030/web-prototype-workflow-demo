@@ -44,7 +44,6 @@ const EventCard = ({ id, image, isPreparing }: EventCardProps) => {
               <Tag size={16} className="text-danger-6" fill="currentColor" />
               {t(`card.${id}.price`)}
             </p>
-            </p>
           </div>
         </div>
       </div>
