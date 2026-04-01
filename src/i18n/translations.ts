@@ -391,7 +391,8 @@ export const translations: Record<Locale, Record<string, string>> = {
     // Contact
     'contact.title': 'Contact Us',
     'contact.phone': 'Call us: 02-7755-0575 ext. 7',
-    'contact.line': 'Chat Online',
+    'contact.lineDesc': 'Or click the button below to chat on LINE',
+    'contact.line': 'LINE Chat',
     'contact.agent': 'Talk to an Agent',
 
     // Footer
