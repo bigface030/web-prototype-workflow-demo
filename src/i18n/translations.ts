@@ -393,7 +393,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     'contact.phone': 'Call us: 02-7755-0575 ext. 7',
     'contact.lineDesc': 'Or click the button below to chat on LINE',
     'contact.line': 'LINE Chat',
-    'contact.agent': 'Talk to an Agent',
+    'contact.agent': 'Call Agent',
 
     // Footer
     'footer.terms': 'Terms of Service',
